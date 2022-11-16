@@ -1,8 +1,11 @@
-import React from "react";
-import Contact from "./Components/Contact";
+import Contact from "./Components/contact/Contact";
 
 const App = () => {
-    return <Contact />;
+    return (
+        <>
+            <Contact />;
+        </>
+    );
 };
 
 export default App;
